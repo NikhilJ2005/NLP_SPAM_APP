@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classify Email</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'classifier/static/classify.css' %}">
+</head>
+<body>
+    <h1>Classify Email</h1>
+    <form method="post">
+
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Classify</button>
+    </form>
+</body>
+</html>

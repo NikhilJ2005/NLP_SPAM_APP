@@ -1,0 +1,38 @@
+#title{
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+}
+h1{
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#p1{
+    font-size: 18px;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#p2{
+    font-size: 18px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#p3{
+    font-size: 18px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}

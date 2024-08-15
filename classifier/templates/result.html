@@ -1,0 +1,15 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title id="title">Classification Result</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'classifier/static/result.css' %}">
+</head>
+<body>
+    <h1>Classification Result</h1>
+    <p id="p1">Subject: {{ email.subject }}</p>
+    <p id="p2">Body: {{ email.body }}</p>
+    <p id="p3">Spam: {{ email.is_spam }}</p>
+</body>
+</html>
